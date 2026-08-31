@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#b14532">
+  <meta name="description" content="Цифровая визитка Романа Чижикова — Аркобалено Инжиниринг">
+  <title>Роман Чижиков — Аркобалено Инжиниринг</title>
+  <link rel="icon" href="./assets/logo.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- INTRO -->
+  <section class="intro" id="intro" aria-label="Загрузка визитки">
+    <div class="intro-noise"></div>
+    <div class="intro-logo-wrap">
+      <img class="intro-logo" src="./assets/logo.png" alt="ab engineering">
+      <div class="intro-line"></div>
+    </div>
+    <div class="intro-counter">01 / 01</div>
+  </section>
+
+  <!-- CARD -->
+  <main class="card-page" id="cardPage">
+    <div class="top-visual">
+      <div class="top-grid"></div>
+      <div class="top-orb"></div>
+
+      <button class="logo-corner" id="logoButton" aria-label="Показать логотип">
+        <img src="./assets/logo.png" alt="ab engineering">
+      </button>
+
+      <div class="portrait-shell">
+        <img src="./assets/roman.jpg" alt="Роман Чижиков" class="portrait">
+      </div>
+
+      <div class="person">
+        <h1>Роман Чижиков</h1>
+        <p>Руководитель отдела продаж</p>
+      </div>
+
+      <div class="quick-actions">
+        <a href="tel:+79253943352" class="quick-action">
+          <span class="icon">☎</span>
+          <span>CALL</span>
+        </a>
+
+        <a href="mailto:r.zacepina@arcoengi.ru" class="quick-action">
+          <span class="icon">➤</span>
+          <span>EMAIL</span>
+        </a>
+
+        <a
+          href="https://yandex.ru/maps/?text=Москва%2C%20Рязанский%20проспект%2C%20д.%2010%20с18"
+          target="_blank"
+          rel="noopener"
+          class="quick-action"
+        >
+          <span class="icon">●</span>
+          <span>DIRECTIONS</span>
+        </a>
+      </div>
+    </div>
+
+    <section class="details">
+      <article class="detail-row">
+        <div class="detail-icon">☎</div>
+        <div>
+          <a href="tel:+79258408433" class="detail-main">8 925 394 33 52</a>
+          <div class="detail-label">Mobile</div>
+        </div>
+      </article>
+
+      <article class="detail-row">
+        <div class="detail-icon">✉</div>
+        <div>
+          <a href="mailto:r.chizhikov@arcoengi.ru" class="detail-main">r.chizhikov@arcoengi.ru</a>
+          <div class="detail-label">Email</div>
+        </div>
+      </article>
+
+      <article class="detail-row">
+        <div class="detail-icon">▣</div>
+        <div>
+          <div class="detail-main">Аркобалено Инжиниринг</div>
+          <div class="detail-label">Руководитель отдела продаж</div>
+        </div>
+      </article>
+
+      <article class="detail-row detail-row-address">
+        <div class="detail-icon">●</div>
+        <div>
+          <div class="detail-main">Рязанский проспект, д. 10 с18</div>
+          <div class="detail-main">Москва</div>
+          <div class="detail-label">Россия</div>
+
+          <a
+            class="map-link"
+            href="https://yandex.ru/maps/?text=Москва%2C%20Рязанский%20проспект%2C%20д.%2010%20с18"
+            target="_blank"
+            rel="noopener"
+          >SHOW ON MAP ↗</a>
+        </div>
+      </article>
+
+      <article class="detail-row">
+        <div class="detail-icon">◎</div>
+        <div>
+          <a class="detail-main" href="https://arcoengi.ru" target="_blank" rel="noopener">arcoengi.ru</a>
+          <div class="detail-label">Website</div>
+        </div>
+      </article>
+
+      <div class="save-wrap">
+        <button class="save-contact" id="saveContact">
+          <span class="save-icon">＋</span>
+          <span>ДОБАВИТЬ В КОНТАКТЫ</span>
+        </button>
+      </div>
+
+      <footer>
+        <img src="./assets/logo.png" alt="ab engineering">
+      </footer>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
