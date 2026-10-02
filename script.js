@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "EMAIL:r.chizhikov@arcoengi.ru",
       "ADR;TYPE=WORK:;;Рязанский проспект, д. 10 с18;Москва;;;Россия",
       "URL:https://arcoengi.ru",
+      "URL:https://t.me/arcoengi",
       "END:VCARD"
     ].join("\\r\\n");
 
