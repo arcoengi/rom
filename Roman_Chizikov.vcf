@@ -1,15 +1,15 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Зацепина;Регина;;;
-FN:Регина Зацепина
+N:Чижиков;Роман;;;
+FN:Роман Чижиков
 ORG:Аркобалено Инжиниринг
-TITLE:Исполнительный директор
-TEL;TYPE=CELL,VOICE:+79258408433
-EMAIL;TYPE=INTERNET,WORK:r.zacepina@arcoengi.ru
+TITLE:Руководитель отдела продаж
+TEL;TYPE=CELL,VOICE:+79253943352
+EMAIL;TYPE=INTERNET,WORK:r.chizikov@arcoengi.ru
 ADR;TYPE=WORK:;;Рязанский проспект\, д. 10 с18;Моск
  ва;;;Россия
 URL:https://arcoengi.ru
 URL:https://t.me/arcoengi
-URL:https://t.me/Donna_Redgi
-NOTE:Личный Telegram: @Donna_Redgi
+URL:https://t.me/chizhikovroman
+NOTE:Личный Telegram: @chizhikovroman
 END:VCARD
