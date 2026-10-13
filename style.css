@@ -115,3 +115,16 @@ body.intro-active { overflow: hidden; }
   .intro { display: none !important; }
   .business-card.is-revealing { animation: none; }
 }
+
+/* Long names and initials use the same layout as the approved card. */
+.person-text { min-width: 0; }
+.portrait-initials { display: grid; place-items: center; background: linear-gradient(145deg,#c4775d,#8c3c2d); }
+.portrait-initials span { font-size: 52px; font-weight: 300; letter-spacing: -.05em; color: #fff4e6; }
+@media(max-width:760px) {
+  .profile-long-name h1 { font-size: 29px; }
+  .portrait-initials span { font-size: 37px; }
+}
+@media(max-width:360px) {
+  .profile-long-name h1 { font-size: 26px; }
+  .portrait-initials span { font-size: 32px; }
+}
